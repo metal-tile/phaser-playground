@@ -15,14 +15,12 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
-- url: /phaser.js
-  static_files: phaser.js
-  upload: phaser.js
 - url: /app.js
   static_files: app.js
   upload: app.js
-- url: /phaser2.png
-  static_files: phaser2.png
-  upload: phaser2.png
+- url: /lib/
+  static_dir: lib
+- url: /assets/
+  static_dir: assets
 - url: /.*
   script: _go_app
